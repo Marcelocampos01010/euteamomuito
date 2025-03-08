@@ -68,6 +68,11 @@
             display: none;
             text-align: center;
             margin-top: 20px;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
         }
 
         #heart {
@@ -126,7 +131,6 @@
             }
         }
 
-        /* Ajustes para telas menores (celulares) */
         @media (max-width: 600px) {
             h1 {
                 font-size: 1.5rem;
@@ -141,6 +145,10 @@
                 font-size: 1rem;
                 padding: 10px;
             }
+
+            #heart {
+                font-size: 2rem;
+            }
         }
     </style>
 </head>
@@ -151,13 +159,13 @@
     <!-- Container de imagens -->
     <div class="container">
         <div class="image-container" id="image1">
-            <img src="IMG-20250206-WA0019.jpg" alt="Imagem 1">
+            <img src="imagem1.jpg" alt="Imagem 1">
         </div>
         <div class="image-container" id="image2">
-            <img src="IMG-20250306-WA0025.jpg" alt="Imagem 2">
+            <img src="imagem2.jpg" alt="Imagem 2">
         </div>
         <div class="image-container" id="image3">
-            <img src="IMG-20250307-WA0110.jpg" alt="Imagem 3">
+            <img src="imagem3.jpg" alt="Imagem 3">
         </div>
 
         <!-- Setas -->
